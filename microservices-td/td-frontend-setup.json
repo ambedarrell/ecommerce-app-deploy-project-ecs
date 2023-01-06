@@ -18,7 +18,7 @@
           }
         ],
         "memoryReservation": 128,
-        "image": "awanmbandi/frontendapp:latest",
+        "image": "ambedarrell/frontendapp:latest",
         "essential": true,
         "portMappings": [
           {
@@ -27,10 +27,10 @@
             "containerPort": 9000
           }
         ],
-        "name": "musicbox"
+        "name": "frontendapp"
       }
     ],
-    "family": "td-musicbox",
+    "family": "frontendapp",
     "requiresCompatibilities": [
       "EC2"
     ],
